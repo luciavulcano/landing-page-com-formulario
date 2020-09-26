@@ -24,19 +24,16 @@ ul.terceira__secao__lista {
   padding: 0;
 }
 
-/* ul li::before {
+ul li::before {
   content: "\2B24";
   color: #FFB700;
   font-weight: bolder;
   padding: 0 .5rem;
-  margin-left: -1rem;
-  background-color: #FFB700;
-  border-radius: 100%;
-} */
+}
 
 .terceira__secao__lista__item {
   text-align: left;
-  line-height: 1;
+  line-height: 1.2rem;
 }
 
 hr {

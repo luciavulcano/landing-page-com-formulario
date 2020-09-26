@@ -112,7 +112,9 @@
   }
 
   .primeira__secao__texto__foto {
-    margin-left: 13rem;
+    align-self: flex-start;
+    margin: 6rem;
+    padding: 0;
   }
 
   .quarta__secao__article {
@@ -148,7 +150,8 @@
   }
 
   .primeira__secao__texto__foto {
-    margin-left: 18rem;
+    align-self: flex-start;
+    margin: 2rem;
   }
 
   .segunda__secao__paragrafo {
