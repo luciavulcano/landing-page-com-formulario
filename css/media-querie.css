@@ -171,4 +171,7 @@
     margin-bottom: 2rem;
   }
 
+  .quarta__secao__paragrafo {
+    align-self: flex-start;
+  }
 }

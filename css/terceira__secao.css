@@ -1,36 +1,42 @@
 .terceira__secao {
   width: 100vw;
-  height: 100vh;
+  height: 70vh;
   display: flex;
   flex-direction: column;
   align-content: center;
   justify-content: space-evenly;
+
 }
 
 .terceira__secao__titulo {
-  font-size: 1.2rem;
-  text-align: center;
+  font-size: 1.25rem;
+  text-align: left;
   font-weight: 700;
-  margin: 0 1rem;
   color: #063254;
+  padding: .5rem;
 }
 
 .terceira__secao__lista {
   color: #063254;
-  margin: 0 2rem;
 }
 
-ul li::before {
+ul.terceira__secao__lista {
+  padding: 0;
+}
+
+/* ul li::before {
   content: "\2B24";
   color: #FFB700;
   font-weight: bolder;
   padding: 0 .5rem;
   margin-left: -1rem;
-}
+  background-color: #FFB700;
+  border-radius: 100%;
+} */
 
 .terceira__secao__lista__item {
-  text-align: justify;
-  line-height: 2rem;
+  text-align: left;
+  line-height: 1;
 }
 
 hr {

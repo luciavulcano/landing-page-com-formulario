@@ -1,5 +1,5 @@
 .quinta__secao {
-  height: 70vh;
+  height: 100vh;
 }
 
 .quinta__secao__article {
@@ -8,20 +8,21 @@
 }
 
 .quinta__secao__titulo {
-  color: #FFB700;
-  font-size: 1.2rem;
+  color: #FFE200;
+  font-size: .87rem;
   text-align: center;
   font-weight: 700;
   margin: 1rem;
+  font-size: 1.125rem;
 }
 
 .quinta__secao__paragrafo {
   color: #063254;
   font-weight: 400;
-  font-size: 1.1rem;
+  font-size: .875rem;
   text-align: center;
   margin: 1rem;
-  line-height: 1.6rem;
+  line-height: 1rem;
 }
 
 .quinta__secao__formulario {
