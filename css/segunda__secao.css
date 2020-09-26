@@ -1,0 +1,38 @@
+.segunda__secao {
+  background: linear-gradient(180deg, #FFB700 99.99%, #141414 100%);
+  height: 60vh;
+  width: 100vw;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+}
+
+.segunda__secao__titulo {
+  font-size: 1.2rem;
+  text-align: center;
+  font-weight: 700;
+  margin: 0 1rem;
+  color: #063254;
+}
+
+.segunda__secao__paragrafo {
+  text-align: center;
+  color: white;
+  font-weight: 400;
+  font-size: 1.1rem;
+  margin: 0 1rem;
+}
+
+.segunda__secao__formulario__botao {
+  background-color: #9B51E0;
+  border-radius: 2.6rem;
+  text-align: center;
+  padding: .6rem;
+  margin: 0 .5rem;
+  font-weight: 700;
+  width: fit-content;
+  align-self: center;
+  box-sizing: border-box;
+  color: white;
+
+}

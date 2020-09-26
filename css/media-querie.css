@@ -1,0 +1,174 @@
+@media(min-width:768px) {
+  .primeira__secao {
+    justify-content: center;
+  }
+
+  .primeira__secao__titulo {
+    font-size: 1.8rem;
+  }
+
+  .primeira__secao__paragrafo {
+    text-align: center;
+    margin: 1rem;
+  }
+
+  .primeira__secao__formulario {
+    margin: 1rem;
+  }
+
+  .primeira__secao__formulario__titulo {
+    align-self: center;
+  }
+
+  .primeira__secao__formulario__texto {
+    text-align: center;
+  }
+
+  .primeira__secao__formulario__input {
+    align-self: center;
+  }
+
+  .primeira__secao__formulario__botao {
+    align-self: center;
+  }
+
+  .primeira__secao__texto__foto {
+    margin-left: 9.5rem;
+    align-self: flex-start;
+
+  }
+
+  .segunda__secao__titulo {
+    font-size: 1.8rem;
+  }
+
+  .segunda__secao__paragrafo {
+    margin: 0 5rem;
+  }
+
+  .segunda__secao__formulario__botao {
+    font-size: 1rem;
+  }
+
+  .terceira__secao {
+    height: 60vh;
+  }
+
+  .terceira__secao__titulo {
+    margin: 0 0 0 5rem;
+    text-align: left;
+    font-size: 1.8rem;
+  }
+
+  .quarta__secao {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .quarta__secao__article {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+
+  .quarta__secao__img {
+    width: 50%;
+    align-self: center;
+  }
+
+  .quinta__secao__titulo {
+    font-size: 1.8rem;
+  }
+
+}
+
+@media(min-width:1024px) {
+
+  .primeira__secao__flexbox {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin: 0 6rem;
+  }
+
+  .primeira__secao__article {
+    margin: 0;
+  }
+
+  .primeira__secao__titulo {
+    text-align: left;
+  }
+
+  .primeira__secao__paragrafo {
+    text-align: left;
+  }
+
+  .primeira__secao__formulario {
+    text-align: right;
+  }
+
+  .primeira__secao__formulario__titulo {
+    text-align: center;
+  }
+
+  .primeira__secao__texto__foto {
+    margin-left: 13rem;
+  }
+
+  .quarta__secao__article {
+    flex-direction: row;
+  }
+
+  .quarta__secao__paragrafo {
+    margin: 0 3rem;
+  }
+
+
+
+  .quinta__secao__article {
+    display: flex;
+    flex-direction: row;
+    margin: 0 5rem 2rem;
+  }
+
+  .quinta__secao__paragrafo {
+    align-self: center;
+
+  }
+}
+
+
+@media(min-width:1440px) {
+  .primeira__secao {
+    height: 70vh;
+  }
+
+  .primeira__secao__flexbox {
+    margin: 0 16rem;
+  }
+
+  .primeira__secao__texto__foto {
+    margin-left: 18rem;
+  }
+
+  .segunda__secao__paragrafo {
+    margin: 0 25rem;
+  }
+
+  .terceira__secao {
+    justify-content: center;
+    height: 70vh;
+  }
+
+  .terceira__secao__titulo {
+    margin: 2rem 1rem;
+    margin-bottom: 2rem;
+    align-self: center;
+  }
+
+  .terceira__secao__lista {
+    align-self: center;
+    margin-bottom: 2rem;
+  }
+
+}

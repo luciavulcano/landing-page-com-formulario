@@ -1,0 +1,61 @@
+.quinta__secao {
+  height: 70vh;
+}
+
+.quinta__secao__article {
+  display: flex;
+  flex-direction: column;
+}
+
+.quinta__secao__titulo {
+  color: #FFB700;
+  font-size: 1.2rem;
+  text-align: center;
+  font-weight: 700;
+  margin: 1rem;
+}
+
+.quinta__secao__paragrafo {
+  color: #063254;
+  font-weight: 400;
+  font-size: 1.1rem;
+  text-align: center;
+  margin: 1rem;
+  line-height: 1.6rem;
+}
+
+.quinta__secao__formulario {
+  display: flex;
+  flex-direction: column;
+  align-content: center;
+}
+
+.quinta__secao__texto__formulario {
+  color: #063254;
+  font-weight: 400;
+  font-size: .9rem;
+  text-align: center;
+  margin: 1rem;
+}
+
+.quinta__secao__formulario__input {
+  border: 2px solid #99B6CC;
+  box-sizing: border-box;
+  width: 17rem;
+  border-radius: 4px;
+  margin: .2rem;
+  align-self: center;
+}
+
+.quinta__secao__formulario__botao {
+  background-color: #FFB700;
+  border-radius: 2.6rem;
+  text-align: center;
+  padding: .8rem;
+  font-weight: 700;
+  width: fit-content;
+  margin-top: .8rem;
+  align-self: center;
+  box-sizing: border-box;
+  cursor: pointer;
+}

@@ -1,0 +1,78 @@
+.primeira__secao {
+  background-image: url("/img/img_fernandarocha.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: 15%;
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+}
+
+.primeira__secao__titulo {
+  color: #FFE200;
+  font-size: 1.2rem;
+  text-align: center;
+  font-weight: 700;
+  margin: 1rem;
+}
+
+.primeira__secao__paragrafo {
+  color: white;
+  font-weight: 400;
+  font-size: 1.1rem;
+  text-align: right;
+  margin: 1rem;
+  margin-left: 5rem;
+}
+
+.primeira__secao__formulario {
+  margin: 1rem 1rem 0 5rem;
+  text-align: right;
+  color: white;
+  display: flex;
+  flex-direction: column;
+}
+
+.primeira__secao__formulario__titulo {
+  color: #FFE200;
+  font-weight: 700;
+  margin-bottom: .5rem;
+  font-size: 1.2rem;
+}
+
+.primeira__secao__formulario__texto {
+  font-size: .9rem;
+  margin-bottom: 1.5rem;
+}
+
+.primeira__secao__formulario__input {
+  border: 2px solid #99B6CC;
+  box-sizing: border-box;
+  width: 17rem;
+  border-radius: 4px;
+  margin: .2rem;
+  align-self: flex-end;
+
+}
+
+.primeira__secao__formulario__botao {
+  background-color: #FFB700;
+  border-radius: 2.6rem;
+  text-align: center;
+  padding: .8rem;
+  font-weight: 700;
+  width: fit-content;
+  margin-top: .8rem;
+  align-self: flex-end;
+  box-sizing: border-box;
+  cursor: pointer;
+}
+
+.primeira__secao__texto__foto {
+  font-size: .9rem;
+  color: white;
+  margin: 1rem 1rem 0 1rem;
+  align-self: flex-end;
+}

@@ -1,0 +1,30 @@
+.quarta__secao {
+  display: flex;
+  flex-direction: column;
+  margin: 1rem;
+}
+
+.quarta__secao__article {
+  display: flex;
+  flex-direction: column;
+}
+
+.quarta__secao__titulo {
+  color: #FFB700;
+  font-weight: 700;
+  margin: 1.5rem 0;
+  font-size: 1.8rem;
+  text-align: center;
+}
+
+.quarta__secao__img {
+  width: 100%;
+}
+
+.quarta__secao__paragrafo {
+  color: #063254;
+  font-weight: 400;
+  font-size: 1.1rem;
+  text-align: justify;
+  line-height: 1.6rem;
+}
