@@ -1,0 +1,49 @@
+@media(min-width:1440px) {
+  .primeira__secao {
+    height: 70vh;
+  }
+
+  .primeira__secao__flexbox {
+    margin: 0 16rem;
+  }
+
+  .primeira__secao__texto__foto {
+    align-self: flex-start;
+    margin: 2rem;
+  }
+
+  .segunda__secao {
+    height: 60vh;
+  }
+
+  .segunda__secao__paragrafo {
+    margin: 0 25rem;
+  }
+
+  .terceira__secao {
+    justify-content: center;
+    height: 70vh;
+  }
+
+  .terceira__secao__titulo {
+    margin: 2rem 1rem;
+    margin-bottom: 2rem;
+    align-self: center;
+  }
+
+  .terceira__secao__lista {
+    align-self: center;
+    margin-bottom: 2rem;
+  }
+
+  .quarta__secao {
+    margin: 0 8rem 4rem;
+  }
+
+  .quarta__secao__paragrafo {
+    align-self: flex-start;
+  }
+
+  .quinta__secao__paragrafo {}
+
+}

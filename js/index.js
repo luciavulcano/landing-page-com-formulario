@@ -7,12 +7,15 @@ let arrayStorage = [];
 botaoFormularioUm.addEventListener('click', function () {
   let nome = localStorage.setItem("nome", inputValueNomeUm.value)
   let email = localStorage.setItem("email", inputValueEmailUm.value)
+  let cliente;
+  if (arrayStorage === null) {
+    arrayStorage === cliente === JSON.stringify({
+      Nome: nome,
+      Email: email
+    });
+    arrayStorage.push(cliente);
+  }
 
-  let cliente = JSON.stringify({
-    Nome: nome,
-    Email: email
-  });
-  arrayStorage.push(cliente);
 });
 
 let botaoFormularioDois = document.querySelector('#segundoBotao');
