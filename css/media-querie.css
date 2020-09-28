@@ -5,11 +5,14 @@
 
   .primeira__secao__titulo {
     font-size: 1.8rem;
+    text-align: center;
+    padding: 0;
   }
 
   .primeira__secao__paragrafo {
     text-align: center;
     margin: 1rem;
+    padding-left: 0;
   }
 
   .primeira__secao__formulario {
@@ -33,7 +36,7 @@
   }
 
   .primeira__secao__texto__foto {
-    margin-left: 9.5rem;
+    margin: 0 0 2rem 5rem;
     align-self: flex-start;
 
   }
@@ -48,6 +51,7 @@
 
   .segunda__secao__formulario__botao {
     font-size: 1rem;
+    padding: 1.2rem;
   }
 
   .terceira__secao {
@@ -65,6 +69,10 @@
     flex-direction: column;
   }
 
+  .quarta__secao__titulo {
+    font-size: 1.8rem
+  }
+
   .quarta__secao__article {
     display: flex;
     flex-direction: column;
@@ -76,8 +84,22 @@
     align-self: center;
   }
 
+  .quarta__secao__paragrafo {
+    font-size: 1.2rem;
+    line-height: 1.5rem;
+  }
+
   .quinta__secao__titulo {
     font-size: 1.8rem;
+  }
+
+  .quinta__secao__paragrafo {
+    font-size: 1.2rem;
+    margin: 2rem 5rem;
+  }
+
+  .quinta__secao__texto__formulario {
+    font-size: 1rem;
   }
 
 }
@@ -125,8 +147,6 @@
     margin: 0 3rem;
   }
 
-
-
   .quinta__secao__article {
     display: flex;
     flex-direction: row;
@@ -135,7 +155,6 @@
 
   .quinta__secao__paragrafo {
     align-self: center;
-
   }
 }
 
@@ -172,6 +191,10 @@
   .terceira__secao__lista {
     align-self: center;
     margin-bottom: 2rem;
+  }
+
+  .quarta__secao {
+    margin: 0 8rem;
   }
 
   .quarta__secao__paragrafo {

@@ -7,7 +7,7 @@
   flex-direction: column;
   height: 100vh;
   justify-content: space-around;
-  width: 100vw;
+
 }
 
 .primeira__secao__titulo {
@@ -72,4 +72,6 @@
   align-self: center;
   box-sizing: border-box;
   cursor: pointer;
+  border: none;
+  width: 17rem;
 }

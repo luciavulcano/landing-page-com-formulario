@@ -59,4 +59,6 @@
   align-self: center;
   box-sizing: border-box;
   cursor: pointer;
+  border: none;
+  width: 17rem;
 }
