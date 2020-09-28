@@ -17,6 +17,7 @@ botaoFormularioUm.addEventListener("click", function (e) {
   dadosArray.push(cliente);
   localStorage.setItem("tabelaClientes", dadosArray);
 
+  onclick = "window.location.href='obrigado.html'"
 });
 
 let botaoFormularioDois = document.querySelector('#segundoBotao');

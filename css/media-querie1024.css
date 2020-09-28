@@ -11,10 +11,6 @@
     margin: 0;
   }
 
-  .primeira__secao__titulo {
-    text-align: left;
-  }
-
   .primeira__secao__paragrafo {
     text-align: left;
   }
@@ -33,6 +29,15 @@
     padding: 0;
   }
 
+  .terceira__secao {
+    margin: 2rem 0;
+  }
+
+  .terceira__secao__lista {
+    margin: 0 4rem;
+    line-height: 1.5rem;
+  }
+
   .quarta__secao__article {
     flex-direction: row;
   }
@@ -49,5 +54,9 @@
 
   .quinta__secao__paragrafo {
     align-self: center;
+  }
+
+  .obrigado__titulo {
+    text-align: center;
   }
 }
