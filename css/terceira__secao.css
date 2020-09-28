@@ -1,6 +1,6 @@
 .terceira__secao {
   width: 100vw;
-  height: 70vh;
+  /* height: 70vh; */
   display: flex;
   flex-direction: column;
   align-content: center;
@@ -33,7 +33,7 @@ ul li::before {
 
 .terceira__secao__lista__item {
   text-align: left;
-  line-height: 1.2rem;
+  line-height: 2.2rem;
 }
 
 hr {

@@ -12,10 +12,6 @@
     margin: 2rem;
   }
 
-  .segunda__secao {
-    height: 60vh;
-  }
-
   .segunda__secao__paragrafo {
     margin: 0 25rem;
   }
@@ -37,13 +33,19 @@
   }
 
   .quarta__secao {
-    margin: 0 8rem 4rem;
+    margin: 2rem 8rem 4rem;
   }
 
   .quarta__secao__paragrafo {
     align-self: flex-start;
   }
 
-  .quinta__secao__paragrafo {}
+  .quinta__secao {
+    margin: 4rem 12rem;
+  }
+
+  .quinta__secao__paragrafo {
+    margin: 0 4rem;
+  }
 
 }
