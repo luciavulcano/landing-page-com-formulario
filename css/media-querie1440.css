@@ -48,4 +48,14 @@
     margin: 0 4rem;
   }
 
+  .primeira__secao__obrigado__titulo {
+    text-align: left;
+    padding: 0 25rem 0 30rem;
+  }
+
+  .primeira__secao__obrigado__paragrafo,
+  .primeira__secao__obrigado__paragrafo__menor {
+    padding: 0 25rem 0 30rem;
+  }
+
 }

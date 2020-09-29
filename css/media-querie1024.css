@@ -56,7 +56,16 @@
     align-self: center;
   }
 
-  .obrigado__titulo {
+  .primeira__secao__obrigado {
+    height: 70vh;
+  }
+
+  .primeira__secao__obrigado__titulo {
     text-align: center;
+  }
+
+  .primeira__secao__obrigado__paragrafo,
+  .primeira__secao__obrigado__paragrafo__menor {
+    padding: 0 15rem 0 20rem;
   }
 }

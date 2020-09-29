@@ -102,10 +102,39 @@
     font-size: 1rem;
   }
 
-  .secao__obrigado {
+  .primeira__secao__obrigado__titulo {
+    font-size: 1.8rem;
+  }
+
+  .primeira__secao__obrigado__paragrafo__menor {
+    font-size: .9rem;
+  }
+
+  .segunda__secao__obrigado {
     display: flex;
     flex-direction: column;
     height: 50vh;
     justify-content: space-evenly;
+    background-color: #F2F2F2;
+    line-height: 2rem;
+    font-size: 1.25rem;
+    text-align: center;
+    font-weight: 700;
+    color: #063254;
+  }
+
+  .segunda__secao__titulo {
+    margin: 1rem;
+  }
+
+  .terceira__secao__obrigado__titulo {
+    font-size: 1.8rem;
+    line-height: 2rem;
+  }
+
+  .terceira__secao__obrigado__imagem__telegram {
+    width: 15%;
+    align-self: center;
+    margin-left: -2rem;
   }
 }
