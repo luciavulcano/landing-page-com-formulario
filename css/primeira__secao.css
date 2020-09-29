@@ -75,3 +75,15 @@
   border: none;
   width: 17rem;
 }
+
+.mensagem-de-erro__nome {
+  font-size: .8rem;
+  color: #FFE200;
+  align-self: center;
+}
+
+.mensagem-de-erro__email {
+  font-size: .8rem;
+  color: #FFE200;
+  align-self: center;
+}
