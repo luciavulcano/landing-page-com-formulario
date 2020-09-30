@@ -17,9 +17,14 @@ botaoFormularioUm.addEventListener("click", function (e) {
   validaEmail(emailUm);
   dadosArray.push(cliente);
   localStorage.setItem("tabelaClientes", dadosArray);
-
   mostraClientes();
-  botaoFormularioUm.onclick = window.open('obrigado.html', '_blank');
+
+  if (validaNome(nomeUm) === true && validaEmail(emailUm) === true) {
+    botaoFormularioUm.onclick = window.open('obrigado.html', '_blank');
+  } else {
+    return false;
+  }
+
 
 });
 
@@ -36,16 +41,21 @@ botaoFormularioDois.addEventListener("click", function (e) {
     nome: nomeDois,
     email: emailDois
   }
-  validaNome(nomeDois);
-  validaEmail(emailDois);
+
+  validaNomeDois(nomeDois);
+  validaEmailDois(emailDois);
+
   dadosArray.push(cliente);
   localStorage.setItem("tabelaClientes", dadosArray);
   mostraClientes();
-  botaoFormularioDois.onclick = window.open('obrigado.html', '_blank');
+
+  if (validaNome(nomeDois) === true && validaEmail(emailDois) === true) {
+    botaoFormularioUm.onclick = window.open('obrigado.html', '_blank');
+  } else {
+    return false;
+  }
 
 });
-
-
 
 function mostraClientes() {
   for (let i = 0; i < dadosArray.length; i++) {
@@ -53,31 +63,7 @@ function mostraClientes() {
   }
 }
 
-let erroEmail = document.querySelector('.mensagem-de-erro__email');
 
-function validaEmail(email) {
-  let regex = /^([A-Za-z0-9_\-\.])+\@([A-Za-z0-9_\-\.])+\.([A-Za-z]{2,4})$/;
-  if (regex.test(email) === false) {
-    return erroEmail.innerHTML = `
-    <p>*Favor inserir um e-mail válido</p>
-    `
-  } else {
-    return erroEmail.innerHTML = `<p></p>`
-  }
-}
-
-let erroNome = document.querySelector('.mensagem-de-erro__nome');
-function validaNome(nome) {
-
-  if (nome.length < 2) {
-    return erroNome.innerHTML = `
-      <p>*Favor inserir um nome válido</p>
-  `
-  }
-  else {
-    return erroNome.innerHTML = `<p></p>`
-  }
-}
 
 
 

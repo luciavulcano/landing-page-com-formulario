@@ -7,7 +7,7 @@
   flex-direction: column;
   height: 100vh;
   justify-content: space-around;
-  /* width: 100vw; */
+  width: 100vw;
 }
 
 .primeira__secao__titulo {
@@ -76,14 +76,14 @@
   width: 17rem;
 }
 
-.mensagem-de-erro__nome {
-  font-size: .8rem;
-  color: #FFE200;
-  align-self: center;
-}
 
-.mensagem-de-erro__email {
+.mensagem-de-erro__email,
+.mensagem-de-erro__nome-dois,
+.mensagem-de-erro__nome,
+.mensagem-de-erro__email-dois {
   font-size: .8rem;
   color: #FFE200;
   align-self: center;
+  margin: 0;
+  padding: 0;
 }
