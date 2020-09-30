@@ -43,13 +43,13 @@
 .primeira__secao__formulario__titulo {
   color: #FFE200;
   font-weight: 700;
-  margin-bottom: .5rem;
+  margin-bottom: .3rem;
   font-size: 1.2rem;
 }
 
 .primeira__secao__formulario__texto {
   font-size: .9rem;
-  margin-bottom: 1rem;
+  margin-bottom: .3rem;
 }
 
 .primeira__secao__formulario__input {
@@ -57,7 +57,7 @@
   box-sizing: border-box;
   width: 17rem;
   border-radius: 4px;
-  margin: .2rem;
+  margin: .1rem;
   align-self: center;
 }
 
@@ -68,7 +68,7 @@
   padding: .8rem;
   font-weight: 700;
   width: fit-content;
-  margin-top: .8rem;
+  margin-top: .3rem;
   align-self: center;
   box-sizing: border-box;
   cursor: pointer;
