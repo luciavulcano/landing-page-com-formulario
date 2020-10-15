@@ -1,6 +1,6 @@
 .primeira__secao {
-  background-image: url("https://i.imgur.com/kfUElXf.png");
-  background-position: 15%;
+  background-image: url("https://i.imgur.com/Y9zrn7y.jpg");
+  background-position: 10%;
   background-repeat: no-repeat;
   background-size: cover;
   display: flex;
@@ -15,7 +15,7 @@
   font-size: 1.5rem;
   text-align: left;
   font-weight: 700;
-  padding: 2rem 0 1rem 8rem;
+  padding: 1rem 0 1rem 8rem;
 }
 
 .primeira__secao__paragrafo {
@@ -67,6 +67,7 @@
   text-align: center;
   padding: .8rem;
   font-weight: 700;
+  font-size: 1.2rem;
   width: fit-content;
   margin-top: .3rem;
   align-self: center;
