@@ -1,26 +1,29 @@
 .terceira__secao {
-  width: 100vw;
+  height: 100vh;
   display: flex;
   flex-direction: column;
   align-content: center;
   justify-content: space-evenly;
-
+  color: #063254;
+  margin: 1rem;
 }
 
 .terceira__secao__titulo {
   font-size: 1.25rem;
-  text-align: left;
+  text-align: center;
   font-weight: 700;
-  color: #063254;
-  padding: .5rem;
+  margin: .5rem 0;
 }
 
 .terceira__secao__lista {
-  color: #063254;
+  padding: 0;
+  margin: 0;
 }
 
-ul.terceira__secao__lista {
+.terceira__secao__lista__item {
+  line-height: 1.5rem;
   padding: 0;
+  margin: 0;
 }
 
 ul li::before {
@@ -28,11 +31,6 @@ ul li::before {
   color: #FFB700;
   font-weight: bolder;
   padding: 0 .5rem;
-}
-
-.terceira__secao__lista__item {
-  text-align: left;
-  line-height: 2.2rem;
 }
 
 hr {

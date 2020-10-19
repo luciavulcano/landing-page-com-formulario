@@ -1,6 +1,5 @@
 .primeira__secao {
-  background-image: url("https://i.imgur.com/Y9zrn7y.jpg");
-  background-position: 10%;
+  background-image: url("https://i.imgur.com/vnWiobX.jpg");
   background-repeat: no-repeat;
   background-size: cover;
   display: flex;
@@ -11,11 +10,11 @@
 }
 
 .primeira__secao__titulo {
-  color: #FFE200;
+  color: #FFB700;
   font-size: 1.5rem;
   text-align: left;
   font-weight: 700;
-  padding: 1rem 0 1rem 8rem;
+  padding: 0 0 .5rem 2rem;
 }
 
 .primeira__secao__paragrafo {
@@ -23,33 +22,30 @@
   font-weight: 400;
   font-size: 1.1rem;
   text-align: left;
-  padding-left: 8rem;
-}
-
-.primeira__secao__texto__foto {
-  font-size: .9rem;
-  color: white;
-  padding: 1rem 0 0 8rem;
+  padding: 0 2rem;
 }
 
 .primeira__secao__formulario {
-  text-align: center;
+  text-align: left;
   color: white;
   display: flex;
   flex-direction: column;
-  margin-top: 1rem;
+  margin-top: 1.5rem;
 }
 
 .primeira__secao__formulario__titulo {
-  color: #FFE200;
+  color: #FFB700;
   font-weight: 700;
   margin-bottom: .3rem;
   font-size: 1.2rem;
+  padding: 0 0 .5rem 2rem;
+
 }
 
 .primeira__secao__formulario__texto {
   font-size: .9rem;
-  margin-bottom: .3rem;
+  margin-bottom: .8rem;
+  padding: 0 2rem;
 }
 
 .primeira__secao__formulario__input {
@@ -69,12 +65,13 @@
   font-weight: 700;
   font-size: 1.2rem;
   width: fit-content;
-  margin-top: .3rem;
+  margin-top: 1rem;
   align-self: center;
   box-sizing: border-box;
   cursor: pointer;
   border: none;
   width: 17rem;
+  box-shadow: 1px 1px 10px black;
 }
 
 

@@ -12,20 +12,21 @@
 .quarta__secao__titulo {
   color: #FFB700;
   font-weight: 700;
-  margin: 1.5rem 0;
+  margin-bottom: 1.5rem;
   font-size: 1rem;
   text-align: center;
 }
 
 .quarta__secao__img {
   width: 100%;
-  border-radius: 70%;
+  border-radius: 40%;
+  margin-bottom: .8rem;
 }
 
 .quarta__secao__paragrafo {
   color: #063254;
   font-weight: 400;
-  font-size: .62rem;
+  font-size: .9rem;
   text-align: justify;
   line-height: 1rem;
 }

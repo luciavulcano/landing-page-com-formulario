@@ -1,6 +1,7 @@
 @media(min-width:768px) {
   .primeira__secao {
     justify-content: center;
+    height: 80vh;
   }
 
   .primeira__secao__titulo {
@@ -41,6 +42,10 @@
 
   }
 
+  .segunda__secao {
+    height: 60vh;
+  }
+
   .segunda__secao__titulo {
     font-size: 1.8rem;
   }
@@ -62,6 +67,10 @@
     margin: 0 0 0 5rem;
     text-align: left;
     font-size: 1.8rem;
+  }
+
+  .terceira__secao__lista__item {
+    line-height: 2rem;
   }
 
   .quarta__secao {

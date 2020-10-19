@@ -19,8 +19,8 @@
   text-align: center;
   color: white;
   font-weight: 400;
-  font-size: 1.25rem;
-  padding: 0 4rem;
+  font-size: 1rem;
+  padding: 0 2rem;
 }
 
 .segunda__secao__formulario__botao {
@@ -34,4 +34,6 @@
   align-self: center;
   box-sizing: border-box;
   color: white;
+  cursor: pointer;
+  box-shadow: 1px 1px 10px black;
 }

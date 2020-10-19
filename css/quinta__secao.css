@@ -13,7 +13,7 @@
   text-align: center;
   font-weight: 700;
   margin: 1rem;
-  font-size: 1.125rem;
+  font-size: 1.12rem;
 }
 
 .quinta__secao__paragrafo {
@@ -62,4 +62,5 @@
   border: none;
   width: 17rem;
   font-size: 1.2rem;
+  box-shadow: 1px 1px 10px black;
 }
