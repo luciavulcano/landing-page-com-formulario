@@ -6,3 +6,4 @@ https://luciavulcano.github.io/landing-page-com-formulario/
 - armazenamento de dados dos inputs por localStorage com JavaScript
 - rastreamento por Google Analytics 
 - validação de email e nome
+- redirecionamento para página após preenchimento do formulário
